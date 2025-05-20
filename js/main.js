@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    $('#search').click(() => {
+    $('#searchBtn').click(() => {
         alert('Button clicked!');
     });
     $.ajax({
