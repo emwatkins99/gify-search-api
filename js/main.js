@@ -6,3 +6,4 @@ $(document).ready(() => {
         url: 'https://api.giphy.com',
     })
 });
+
