@@ -1,10 +1,12 @@
+const { use } = require("react");
+
 $(document).ready(() => {
     $('#searchBtn').click(() => {
         let userInput = $('#searchInput').val();
-        alert('Button clicked!');
+        alert(userInput);
+         $.ajax({
+        url: 'https://api.giphy.com'
+        })
     });
-    $.ajax({
-        url: 'https://api.giphy.com',
-    })
 });
 
